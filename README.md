@@ -1,5 +1,15 @@
-## Hi there 👋
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&gradientColor=FFB6C1,E6E6FA,FFFACD&height=200&section=header&text=Welcome%20to%20chaewon's%20GITHUB%20!&fontSize=40&fontAlign=50&fontColor=ffffff&animation=fadeIn" />
 
+### 🌱 I’m currently learning ...
+- Spring
+- Java
+- Kotlin
+- AWS
+- Docker
+
+[![Velog's GitHub stats](https://velog-readme-stats.vercel.app/api/list?name=3uomlkh)](https://velog.io/@3uomlkh/posts)
+
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=3uomlkh)](https://github.com/anuraghazra/github-readme-stats)
 <!--
 **3uomlkh/3uomlkh** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
