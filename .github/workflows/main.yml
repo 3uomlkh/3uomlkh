@@ -41,4 +41,5 @@ jobs:
           git config --local user.email "3uomlkh@gmail.com"
           git config --local user.name "3uomlkh"
           git add .
-          git commit -m "Update REA
+          git commit -m "Update README.md"
+          git push origin main
