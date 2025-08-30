@@ -46,8 +46,10 @@ const parser = new Parser({
     text += `</ul>`;
     
     // README.md 파일 생성
-    writeFileSync('README.md', text, 'utf8', (e) => {
-        console.log(e);
-    })
-    console.log('업데이트 완료');
+    try {
+        writeFileSync('README.md', text, 'utf8');
+        console.log('업데이트 완료');
+    } catch (e) {
+        console.error('README 생성 실패:', e);
+    }    
 })();
