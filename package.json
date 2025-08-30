@@ -1,0 +1,25 @@
+{
+  "name": "3uomlkh",
+  "version": "1.0.0",
+  "description": "<img src=\"https://capsule-render.vercel.app/api?type=waving&color=gradient&gradientColor=FFB6C1,E6E6FA,FFFACD&height=200&section=header&text=Welcome%20to%20chaewon's%20GITHUB%20!&fontSize=40&fontAlign=50&fontColor=ffffff&animation=fadeIn\" />",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/3uomlkh/3uomlkh.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/3uomlkh/3uomlkh/issues"
+  },
+  "homepage": "https://github.com/3uomlkh/3uomlkh#readme",
+  "dependencies": {
+    "rss-parser": "^3.13.0"
+  }
+}
