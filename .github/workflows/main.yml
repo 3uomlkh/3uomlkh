@@ -30,10 +30,12 @@ jobs:
       - name: Update README
         run: npm start
 
-      - name: Check if there are any changes
+      - name: Check for changes
         id: verify_diff
         run: |
-          git diff --quiet . || echo "changed=true" >> $GITHUB_OUTPUT
+          git add README.md
+          git diff --cached --quiet || echo "changed=true" >> $GITHUB_OUTPUT
+      
 
       - name: Commit README
         if: steps.verify_diff.outputs.changed == 'true'
